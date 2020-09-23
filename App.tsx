@@ -26,7 +26,7 @@ import { Platform } from "react-native";
 import SupportScreen from "./src/payments/SupportScreen";
 import MarkdownArticleScreen from "./src/articles/MarkdownArticleScreen";
 
-// Fixes a bug on OnePlus phones which have some buggy font by default
+// Makes Bugs that destroy the entire code
 if (Platform.OS === "android") {
   setCustomText({
     style: {
